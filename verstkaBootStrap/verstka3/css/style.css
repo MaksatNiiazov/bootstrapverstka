@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap');
+body{
+    font-family: 'Istok Web', sans-serif;
+    color: #4b3f55
+}
+header{
+    background-color: #775BA3;
+    text-transform: uppercase;
+}
+.my-person{
+    margin-right: auto;
+}
+.nav_link{
+    font-size: 14px;
+}
+.hover:hover{
+    text-shadow: 0px 0px 5px #fff;
+}
+.button_user{
+    margin-left: 15px;
+}
+.button_user:focus{
+box-shadow: none;
+}
+.mb-1{
+    color: #4b3f55;
+}
+.carousel-indicators{
+    width: 100px;
+    background-clip: border-box;
+    margin: 0 auto 10px;
+}
+.carousel-indicators [data-bs-target]{
+    height: 10px;
+    width: 10px;
+    background-color: inherit;
+    border-radius: 20px;
+    border: solid 1px #000;
+    opacity: 1;
+    margin-left: 5px;
+}
+.slider_section{
+    padding-top: 0px;
+}
+
+.carousel-indicators .active{
+    background-color: #fff;
+    border: none;
+    height: 12px;
+    width: 12px;
+}
+.button-enter{
+    background-color:#775ba3;
+    color: #fff;
+    font-weight: bold;
+}
+.button-enter:hover{
+    color: #fff;
+    box-shadow: 0px 0px 5px #775ba3;
+    text-shadow: 0px 0px 2px #fff;
+}
+.form-control{
+    color: #4b3f55;
+}
+.form-control:focus{
+    color: #4b3f55;
+    box-shadow: 0px 0px 5px 2px #775BA3;
+}
+section{
+    padding: 80px 0 ;
+}
+.content{
+    text-align: center;
+}
+h2{
+    color: #775ba3;
+    font-size: 40рх;
+    font-weight: bold;
+    text-align: center;
+}
+.content p {
+    font-size: 23px;
+    color: #4b3f55;
+    font-weight: bold;
+}
+.section-2{
+    background-color: #FBFBFB;
+    border-top: 2px solid #93C0AD;
+    border-bottom: 2px solid #93C0AD;
+    color: #4b3f55;
+}
+.content h2{
+    margin-bottom: 20px;
+}
+.section-2-icon{
+    height: 120px;
+    width: 120px;
+    font-size: 70px;
+    margin: 50px auto;
+    padding-top: 12px;
+    color: #4b3f55;
+    border: 3px solid #4b3f55;
+    border-radius: 100px;
+}
+.card{
+    padding: 0%;
+    margin-top: 30px;
+    border: none;
+}
+.card-body{
+    padding: 0;
+}
+.card-title{
+    padding: 5px 0;
+    border-top: 2px solid #93C0AD;
+    border-bottom: 2px solid #93C0AD;
+}
+.name{
+    font-size: 15px;
+    font-weight: bold;
+    color: #91c5a9;
+}
+.prof{
+    font-size: 12px;
+    font-weight: bold;
+    color: #91c5a9;
+}
+.btn-group{
+    margin-top: auto;
+}
+.card_icon{
+    margin-top: auto;
+    width: 162px;
+    font-size: 30px;
+    color: rgb(236, 235, 235);
+    text-align: center;
+}
+.card_icon:hover{
+    color: #fff;
+}
+.card_icon_facebook{
+    background-color: #3C5998;
+}
+.card_icon_facebook:hover{
+    background-color: #4262a8;
+}
+.card_icon_youtube{
+    background-color: #C70C0C;
+}
+.card_icon_youtube:hover{
+    background-color: #dd1010;
+}
+.card_icon_twitter{
+    background-color: #09ACEB;
+}
+.card_icon_twitter:hover{
+    background-color: #08b9ff;
+}
+.card_icon_google-plus{
+    background-color: #D24233;
+}
+.card_icon_google-plus:hover{
+    background-color: #f04e3c;
+}
+.card_icon_dribbble{
+    background-color: #E94C88;
+}
+.card_icon_dribbble:hover{
+    background-color: #ff5697;
+}
+footer{
+    font-size: 14px;
+    color: #fff;
+    background-color: #54865d;
+}
+footer p{
+    padding: 20px 0;
+    margin: 0;
+}

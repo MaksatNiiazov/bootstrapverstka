@@ -1,0 +1,109 @@
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0;
+
+}
+.container{
+    max-width: 1000px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+header{
+    background-color: #02918c;
+    padding: 15px 0;
+    text-align: center;
+}
+.logo{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.mainNav a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0 25px;
+    text-transform: uppercase;
+}
+.mainDiv{
+    background-image:url("../imgs/main-pic.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.mainDiv h1{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+.mainDiv p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 33px;
+
+}
+.mainDiv a{
+    display: inline-block;
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #cfc91d;
+    padding: 12px 35px;
+    margin: 100px 0 0 ;
+}
+.aboutMain{
+    text-align: center;
+    margin: 100px 0 0 ;
+}
+.aboutMain h2{
+    color: #02918c;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.aboutMain p {
+    color: #7e8287;
+    font-size: 16px;
+}
+.row{
+    margin: 70px 0 ;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.column{
+    width: 20%;
+    padding: 40px 0 0;
+    background-repeat: no-repeat;
+    background-position: center top;
+
+}
+.column h3{
+    color: #7e8287;
+    font-size: 17px;
+    font-weight: 700;
+}
+.column-1{
+    background-image: url(../imgs/ic-lamp.png);
+}
+.column-2{
+    background-image: url(../imgs/ic-pencil.png);
+}
+.column-3{
+    background-image: url(../imgs/ic-set.png);
+}
+.column-4{
+    background-image: url(../imgs/ic-laptop.png);
+}
+footer{
+    background-color: #000;
+    color: #7e8287;
+    font-size: 12px;
+    text-align: right;
+    padding: 20px 150px 20px 0px;
+}
